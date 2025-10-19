@@ -6,7 +6,7 @@
             <input type="text" formControlName="code"
                 placeholder="Code" class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f['code'].errors
-}"/>
+}">
             <div *ngIf="submitted && f['code'].errors">
                 <div *ngIf="f['code'].errors?.['required']">
                     Trip Code is required
@@ -19,7 +19,7 @@
             <input type="text" formControlName="name"
                 placeholder="Name" class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f['name'].errors
-}"/>
+}">
             <div *ngIf="submitted && f['name'].errors">
                 <div *ngIf="f['name'].errors?.['required']">
                     Name is required
@@ -32,7 +32,7 @@
             <input type="text" formControlName="length"
                 placeholder="Name" class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f['length'].errors
-}"/>
+}">
             <div *ngIf="submitted && f['length'].errors">
                 <div *ngIf="f['length'].errors?.['required']">
                     Length is required
@@ -45,7 +45,7 @@
             <input type="date" formControlName="start"
                 placeholder="Start" class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f['start'].errors
-}"/>
+}">
             <div *ngIf="submitted && f['start'].errors">
                 <div *ngIf="f['start'].errors?.['required']">
                     Date is required
@@ -58,7 +58,7 @@
             <input type="text" formControlName="resort"
                 placeholder="Resort" class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f['resort'].errors
-}"/>
+}">
             <div *ngIf="submitted && f['resort'].errors">
                 <div *ngIf="f['resort'].errors?.['required']">
                     Resort is required
@@ -84,7 +84,7 @@
             <input type="text" formControlName="image"
                 placeholder="Image" class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f['image'].errors
-}"/>
+}">
             <div *ngIf="submitted && f['image'].errors">
                 <div *ngIf="f['image'].errors?.['required']">
                     Image Name is required
